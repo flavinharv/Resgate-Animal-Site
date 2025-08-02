@@ -77,35 +77,80 @@ body {
 }
 
 .texto-inicial {
-  max-width: 500px;
+  max-width: 800px;
+  justify-content: center;
 }
 
 .texto-inicial h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 5px;
+  padding: 5px;
 }
 
 .texto-inicial h1::after {
     content: '';
     display: block;
-    width: 24rem;
+    width: 40rem;
     height: 0.3rem;
     background-color: #00a89b;
-    margin: 0 auto;
+    margin: 10px;
     position: absolute;
     border-radius: 10px;
+    text-align: center;
 }
 
 .texto-inicial p {
-  font-size: 18px;
+  font-size: 30px;
   line-height: 1.5;
   color: #555;
+  text-align: center;
+  margin: 10px;
 }
 
 .imagem img {
-  width: 300px;
-  height: 300px;
+  width: 600px;
+  height: 600px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.elementos-dog {
+  display: flex; 
+}
+.elementos-dog img {
+  display: inline-block;
+  width: 100px; 
+  height: 100px; 
+}
+
+.nossa-ong img{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: left;
+  height: 700px;
+  
+}
+
+.nossa-ong {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.texto-secundario h2{
+  color: #017f74;
+  display: flex;
+  margin: 10px;
+  font-size: 40px;
+}
+
+.texto-secundario p{
+  font-size: 20px;
+  margin: 10px;
+  text-align: justify;
 }

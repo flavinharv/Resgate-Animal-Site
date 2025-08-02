@@ -22,6 +22,8 @@ body {
 }
 
 .form-imagem {
+    background-image: url(img/img2.png);
+    background-size: cover;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -45,32 +47,9 @@ body {
 }
 
 .form-header {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
-}
-
-.login-button {
-    display: flex;
-    align-items: center;
-}
-
-.login-button button {
-    border: none;
-    background-color: #00a89b;
-    padding: 0.4rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.login-button button:hover {
-    background-color: #018a7f;
-}
-
-.login-button button a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #fff;
 }
 
 .form-header h1::after {
@@ -92,6 +71,7 @@ body {
 }
 
 .input-box {
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 1.1rem;
@@ -125,7 +105,7 @@ body {
 
 .botão-continuar button {
     width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
     border: none;
     background-color: #00a89b;
     padding: 0.62rem;
@@ -140,6 +120,37 @@ body {
 .botão-continuar button a {
     text-decoration: none;
     font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.login-button {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button p {
+    display: flex;
+    align-items: center;
+    margin: 0.2rem;
+}
+
+.login-button button {
+    border: none;
+    background-color: #00a89b;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #018a7f;
+}
+
+.login-button button a {
+    text-decoration: none;
     font-weight: 500;
     color: #fff;
 }
