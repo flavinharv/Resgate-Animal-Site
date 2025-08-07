@@ -17,6 +17,12 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+footer {
+  background-color:  #d9d9d9;
+  text-align: center;
+  padding: 30px;
+}
+
 .logo img {
   height: 80px;
 }
@@ -125,7 +131,7 @@ body {
   height: 100px; 
 }
 
-.nossa-ong img{
+#nossa-ong img{
   margin-top: 100px;
   margin-bottom: 100px;
   margin-left: 30px;
@@ -135,22 +141,227 @@ body {
   
 }
 
-.nossa-ong {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+#nossa-ong {
+  margin: 40px;
+  padding: 40px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.texto-secundario h2{
-  color: #017f74;
-  display: flex;
-  margin: 10px;
+.texto-secundario h2 {
   font-size: 40px;
+  color: #007f70;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.texto-secundario h2::after {
+  content: '';
+  display: block;
+  width: 14rem;
+  height: 4px;
+  background-color: #00a89b;
+  margin-top: 6px; 
+  border-radius: 10px;
 }
 
 .texto-secundario p{
   font-size: 20px;
   margin: 10px;
   text-align: justify;
+}
+
+#frente-atuacao {
+  margin: 40px;
+  padding: 40px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.texto-secundario2 h2 {
+  font-size: 40px;
+  color: #007f70;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.texto-secundario2 h2::after {
+  content: '';
+  display: block;
+  width: 25rem;
+  height: 4px;
+  background-color: #00a89b;
+  margin-top: 6px; 
+  border-radius: 10px;
+}
+
+.texto-secundario2 p{
+  font-size: 20px;
+  margin: 10px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.texto-secundario2 ul{
+  padding-left: 20px;
+  font-size: 20px;
+  margin: 30px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#frente-atuacao img{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: right;
+  height: 500px;
+}
+
+#forum-discussoes {
+  margin: 40px;
+  padding: 40px 40px;
+}
+
+#forum-discussoes h2 {
+  font-size: 40px;
+  color: #007f70;
+  font-weight: bold;
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#forum-discussoes p{
+  font-size: 20px;
+  margin: 10px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.form-forum {
+  background-color: #d9d9d9;
+  padding: 50px;
+  margin: 40px;
+}
+
+.input-caixa {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-caixa label {
+  font-weight: bold;
+}
+
+.input-caixa input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-caixa input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-caixa input:focus-visible {
+    outline: 1px solid #00a89b;
+}
+
+.botao-publicar button {
+  width: 200px;
+  margin-top: 0.5rem;
+  border: none;
+  background-color: #ffde59;
+  padding: 0.62rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-publicar button:hover {
+  background-color: #fad850;
+}
+
+.botao-publicar button a {
+  text-decoration: none;
+  font-size: 0.93rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+#area-financeira {
+  margin: 40px;
+  padding: 40px 40px;
+}
+
+#area-financeira h2 {
+  font-size: 40px;
+  color: #007f70;
+  font-weight: bold;
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#area-financeira h2::after {
+  content: '';
+  display: block;
+  width: 25rem;
+  height: 4px;
+  background-color: #00a89b;
+  margin-top: 6px; 
+  border-radius: 10px;
+}
+
+#area-financeira p{
+  font-size: 20px;
+  margin: 10px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.botao-imagem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.botao-doacao button {
+  margin-top: 40px;
+  border: none;
+  background-color: #00a89b;
+  padding: 30px;
+  width: 300px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-doacao button:hover {
+  background-color: #007f70;
+}
+
+.botao-doacao button a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
 }
